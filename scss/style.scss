@@ -1,0 +1,197 @@
+@import "variable";
+@import "mixin";
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap ");
+
+.container-max {
+    @include container(1302px);
+}
+.container-min {
+    @include container(1110px);
+}
+.container-footer{
+    @include container(1210px);
+}
+.container-bg-img {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+* {
+    text-decoration: none !important;
+}
+
+// wrapper-top-site
+.wrapper-top-site {
+    background: url("../images/bg-image-1.jpg") no-repeat right top;
+}
+
+// header
+header {
+    padding: 27px 0 !important;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    animation-duration: 500ms;
+}
+header li {
+    display: flex; //так надо
+}
+header ul > :not(:last-child) {
+    margin-right: 25px; // gap
+}
+header .stick-header {
+    width: 2px;
+    height: 19px;
+    background: #ffffff;
+}
+header li a {
+    font-family: Raleway, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 10px !important;
+    line-height: 174.69% !important;
+    color: #ffffff !important;
+}
+header .sign-up {
+    padding: 7px 22px !important;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+@keyframes hamburgerOpen {
+    from {
+        width: 0;
+        padding: 10px 0;
+    }
+    to {
+        width: 109px;
+        padding: 10px;
+    }
+}
+@keyframes hamburgerClosed {
+    from {
+        width: 109px;
+        padding: 10px;
+    }
+    to {
+        width: 0;
+        padding: 10px 0;
+    }
+}
+
+//intro
+.intro {
+    padding: 260px 0;
+}
+.intro h1 {
+    max-width: 400px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #333333;
+}
+.intro p {
+    max-width: 468px;
+    margin: 30px 0 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgba(51, 51, 51, 0.5) !important;
+}
+.intro a {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 174.69%;
+    color: #ffffff !important;
+    padding: 15px 73px;
+    background: #1ff0d7;
+    box-shadow: 0px 50px 50px rgba(24, 133, 107, 0.2);
+    border-radius: 50px;
+}
+
+
+
+
+
+//footer
+footer{
+    margin:94px auto !important; //outer padding
+}
+footer > div:not(:last-child){
+    margin-right:20px; // ~ gap
+}
+footer .stick-footer{
+    width: 50px;
+    height: 2px;
+    background:#00A692;
+    margin-bottom:67px;
+}
+footer li:not(:last-child){
+    margin-bottom:20px;
+}
+
+footer .heading{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 137.4%;
+    color: #000000;    
+}
+footer .link-site li a{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 137.4%;
+    color: #000000;
+}
+footer .link-site .text-muted{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.9%;
+}
+footer .link-site .text-muted:nth-child(2){
+    max-width:319px;
+}
+footer .link-site .text-muted a{
+    color: #00A692 !important; 
+}
+footer .icon{
+    display:flex;
+    align-items:center;
+}
+footer .icon::before{
+    font-size:40px;
+    margin-right:20px;
+}
+
+
+
+//thanks for watching
+.thanks-for-watching{
+    background: #F3F3F3;
+    padding:56px 0 !important;
+}
+.btn-green{
+    background:$green !important;
+    border-radius: 0 !important;
+    color:white !important;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 137.4%;
+}
