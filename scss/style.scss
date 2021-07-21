@@ -121,6 +121,72 @@ header .sign-up {
 
 
 
+//info for a services
+.info-for-a-services > div:not(:last-child){
+    margin-right: 20px; // ~ min gap
+}
+.info-for-a-services img{
+    width: 250px !important; 
+    height: 250px !important;
+}
+.info-for-a-services .heading{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 174.69%;
+    color: #333333;    
+}
+.info-for-a-services .description{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 174.69%;
+    color: rgba(51, 51, 51, 0.5);    
+}
+
+
+
+//main description
+.main-description{
+    padding:64px 0;
+}
+.link-pyromids{
+    background:#F3F3F3;
+}
+.link-pyromids > div{
+    background:url("../images/Dashboard-social-media-people.png") no-repeat right center;
+}
+.wide-scope > div{
+    background:url("../images/Dashboard-brends.png") no-repeat left center;
+}
+.main-description .heading{
+    margin-top:15px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 137.4%;
+    color: #333333;
+}
+.main-description .description{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 139.69%;
+    color: rgba(51, 51, 51, 0.5);    
+}
+.main-description a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 139.69%;
+    color: $green;
+}
+
 
 
 //footer
@@ -141,7 +207,7 @@ footer li:not(:last-child){
 }
 
 footer .heading{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -149,7 +215,7 @@ footer .heading{
     color: #000000;    
 }
 footer .link-site li a{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -157,7 +223,7 @@ footer .link-site li a{
     color: #000000;
 }
 footer .link-site .text-muted{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -189,7 +255,7 @@ footer .icon::before{
     background:$green !important;
     border-radius: 0 !important;
     color:white !important;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
