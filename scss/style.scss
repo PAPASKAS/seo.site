@@ -2,7 +2,7 @@
 @import "mixin";
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap ");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap");
 
 .container-max {
     @include container(1302px);
@@ -186,6 +186,98 @@ header .sign-up {
     line-height: 139.69%;
     color: $green;
 }
+
+
+
+//clients
+.clients{
+    background: #f3f3f3;
+    padding:85px 0 50px 0;
+}
+.clients p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 137.4%;
+    color: #333333;    
+    margin-bottom:30px;
+}
+.clients .bg-img{
+    width: 199px;
+    height: 117px;
+    margin:0 20px 20px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(153, 151, 151, 0.5);
+}
+
+
+//paymentNecessary
+.paymentNecessary{
+    padding:90px 0;
+    background:url("../images/Image illustrat.svg") no-repeat bottom center;
+}
+.paymentNecessary .top{
+    margin-bottom:377px;
+}
+.paymentNecessary .top .heading{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 137.4%;
+    color: #333333;    
+}
+.paymentNecessary .top .description{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 137.4%;
+    color: #333333;    
+    margin:38px 0 85px 0;
+}
+.paymentNecessary .top .warranty{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 173.4%;
+    color: #333333;
+    max-width:363px;
+    margin:0 auto 56px;
+}
+.paymentNecessary .bottom .heading{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 137.4%;
+    color: #FFFFFF;    
+}
+.paymentNecessary .bottom .description{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 137.4%;
+    color: #FFFFFF;    
+    margin:38px 0 52px 0;
+}
+.paymentNecessary button{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 174.69%;
+    color: #FFFFFF !important;
+    background: #1FF0D7;
+    box-shadow: 0px 50px 50px rgba(24, 133, 107, 0.2);
+    border-radius: 50px;
+    width: 350px;
+    height: 67px;
+}
+
 
 
 

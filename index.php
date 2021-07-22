@@ -4,7 +4,8 @@ require_once "blocks/header.php";
 require_once "blocks/info for a services.html";
 require_once "blocks/Link pyromids info social media.html";
 require_once "blocks/Wide scope deeper understanding.html";
-
+require_once "blocks/clients.php";
+require_once "blocks/paymentNecessary.html";
 
 
 require_once "blocks/footer.php";
